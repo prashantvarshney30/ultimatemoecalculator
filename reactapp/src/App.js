@@ -454,21 +454,21 @@ export default class Form extends Component {
                             <div>Total Time in hours : <span id="time">{this.state.misc.time}</span></div>
                             <div>Choose Speedup Type :</div>
                             <div class="form-check row">
-                            <label class="form-check-label col-3" for="8hr">
+                            <label class="form-check-label col-4" for="8hr">
                                 <input class="form-check-input" type="radio" name="trainspeedups" id="8hrtrain" value="8"
                                 checked={this.state.selectedTrainSpeedup ==='8'}
                                 onChange={this.handleTrainSpeedupChange}
                                 />
                                     8 Hours
                                 </label>
-                                <label class="form-check-label col-3" for="15hr">
+                                <label class="form-check-label col-4" for="15hr">
                                 <input class="form-check-input" type="radio" name="trainspeedups" id="15hrtrain" value="15" 
                                 checked={this.state.selectedTrainSpeedup ==='15'}
                                 onChange={this.handleTrainSpeedupChange}/>
                                 
                                     15 Hours
                                 </label>
-                                <label class="form-check-label col-3" for="3day">
+                                <label class="form-check-label col-4" for="3day">
                                 <input class="form-check-input" type="radio" name="trainspeedups" id="3day" value="72"
                                 checked={this.state.selectedTrainSpeedup ==='72'}
                                 onChange={this.handleTrainSpeedupChange}/>
@@ -526,21 +526,21 @@ export default class Form extends Component {
                                 <div>
                                 <div>Choose Speedup Type :</div>
                             <div class="form-check row">
-                            <label class="form-check-label col-3" for="8hr">
+                            <label class="form-check-label col-4" for="8hr">
                                 <input class="form-check-input" type="radio" name="optimizespeedups" id="8hroptimize" value="8"
                                 checked={this.state.selectedOptimizeSpeedup ==='8'}
                                 onChange={this.handleOptimizeSpeedupChange}
                                 />
                                     8 Hours
                                 </label>
-                                <label class="form-check-label col-3" for="15hr">
+                                <label class="form-check-label col-4" for="15hr">
                                 <input class="form-check-input" type="radio" name="optimizespeedups" id="15hroptimize" value="15" 
                                 checked={this.state.selectedOptimizeSpeedup ==='15'}
                                 onChange={this.handleOptimizeSpeedupChange}/>
                                 
                                     15 Hours
                                 </label>
-                                <label class="form-check-label col-3" for="3day">
+                                <label class="form-check-label col-4" for="3day">
                                 <input class="form-check-input" type="radio" name="optimizespeedups" id="3dayoptimize" value="72"
                                 checked={this.state.selectedOptimizeSpeedup ==='72'}
                                 onChange={this.handleOptimizeSpeedupChange}/>
@@ -551,20 +551,20 @@ export default class Form extends Component {
                                 <div>
                                     <div>Choose troop you want to train:</div>
                                     <div class="form-check row">
-                            <label class="form-check-label col-3" for="t1melee">
+                            <label class="form-check-label col-4" for="t1melee">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t1melee" value="t1melee"
                                 checked={this.state.selectedOptimizeTroop ==='t1melee'}
                                 onChange={this.handleOptimizeTroopChange}
                                 />
                                     T1 Melee
                                 </label>
-                                <label class="form-check-label col-3" for="t1range">
+                                <label class="form-check-label col-4" for="t1range">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t1range" value="t1range" 
                                 checked={this.state.selectedOptimizeTroop ==='t1range'}
                                 onChange={this.handleOptimizeTroopChange}/>
                                     T1 Range
                                 </label>
-                                <label class="form-check-label col-3" for="t1siege">
+                                <label class="form-check-label col-4" for="t1siege">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t1siege" value="t1siege"
                                 checked={this.state.selectedOptimizeTroop ==='t1siege'}
                                 onChange={this.handleOptimizeTroopChange}/>
@@ -572,20 +572,20 @@ export default class Form extends Component {
                                 </label>
                             </div>
                             <div class="form-check row">
-                            <label class="form-check-label col-3" for="t5melee">
+                            <label class="form-check-label col-4" for="t5melee">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t5melee" value="t5melee"
                                 checked={this.state.selectedOptimizeTroop ==='t5melee'}
                                 onChange={this.handleOptimizeTroopChange}
                                 />
                                     T5 Melee
                                 </label>
-                                <label class="form-check-label col-3" for="t5range">
+                                <label class="form-check-label col-4" for="t5range">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t5range" value="t5range" 
                                 checked={this.state.selectedOptimizeTroop ==='t5range'}
                                 onChange={this.handleOptimizeTroopChange}/>
                                     T5 Range
                                 </label>
-                                <label class="form-check-label col-3" for="t5siege">
+                                <label class="form-check-label col-4" for="t5siege">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t5siege" value="t5siege"
                                 checked={this.state.selectedOptimizeTroop ==='t5siege'}
                                 onChange={this.handleOptimizeTroopChange}/>
@@ -593,20 +593,20 @@ export default class Form extends Component {
                                 </label>
                             </div>
                             <div class="form-check row">
-                            <label class="form-check-label col-3" for="t6melee">
+                            <label class="form-check-label col-4" for="t6melee">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t6melee" value="t6melee"
                                 checked={this.state.selectedOptimizeTroop ==='t6melee'}
                                 onChange={this.handleOptimizeTroopChange}
                                 />
                                     T6 Melee
                                 </label>
-                                <label class="form-check-label col-3" for="t6range">
+                                <label class="form-check-label col-4" for="t6range">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t6range" value="t6range" 
                                 checked={this.state.selectedOptimizeTroop ==='t6range'}
                                 onChange={this.handleOptimizeTroopChange}/>
                                     T6 Range
                                 </label>
-                                <label class="form-check-label col-3" for="t6siege">
+                                <label class="form-check-label col-4" for="t6siege">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="t6siege" value="t6siege"
                                 checked={this.state.selectedOptimizeTroop ==='t6siege'}
                                 onChange={this.handleOptimizeTroopChange}/>
@@ -614,13 +614,13 @@ export default class Form extends Component {
                                 </label>
                             </div>
                             <div class="form-check row">
-                            <label class="form-check-label col-3" for="f1fac">
+                            <label class="form-check-label col-4" for="f1fac">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="f1fac" value="f1fac"
                                 checked={this.state.selectedOptimizeTroop ==='f1fac'}
                                 onChange={this.handleOptimizeTroopChange}/>
                                     Faction type 1
                                 </label>
-                                <label class="form-check-label col-3" for="f2fac">
+                                <label class="form-check-label col-4" for="f2fac">
                                 <input class="form-check-input" type="radio" name="optimizetroops" id="f2fac" value="f2fac"
                                 checked={this.state.selectedOptimizeTroop ==='f2fac'}
                                 onChange={this.handleOptimizeTroopChange}/>
