@@ -91,12 +91,11 @@ export default class Form extends Component {
         var self = this;
         if (validation(this.state)) {
             var formData=this.state;
-            axios.post('http://localhost:3001/optimize', formData,{headers:{"Content-Type" : "application/json"}})
+            axios.post('https://ultimatemoecalcserver.onrender.com/optimize', formData,{headers:{"Content-Type" : "application/json"}})
         .then(function (response) {
            if(response.status===200){
             self.setState(response.data);
            }
-            console.log(response);
 
         })
         .catch(function (error) {
@@ -115,12 +114,11 @@ export default class Form extends Component {
         var self = this;
         if (validation(this.state)) {
             var formData=this.state;
-            axios.post('http://localhost:3001/calculate', formData,{headers:{"Content-Type" : "application/json"}})
+            axios.post('https://ultimatemoecalcserver.onrender.com/calculate', formData,{headers:{"Content-Type" : "application/json"}})
         .then(function (response) {
            if(response.status===200){
             self.setState(response.data);
            }
-            console.log(response);
 
         })
         .catch(function (error) {
