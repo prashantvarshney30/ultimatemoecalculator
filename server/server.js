@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const cors = require('cors')
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 const barracktocapmap={
 	level1: "20",
